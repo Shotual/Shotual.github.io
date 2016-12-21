@@ -1,0 +1,663 @@
+﻿/*COLORES:
+ROJO:#a90329;
+GRIS:#BEC6C5;
+*/
+
+body
+{
+    margin: 0 0 0px;
+    font-family: "proxima_novalight","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+/* =============================================================================
+ FIXED NAVBAR-TOP (RESPONSIVE)
+============================================================================= */
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 80px;
+  background-color: #111111;
+  
+}
+.content {
+  margin-top: 20px;
+}
+
+.fixed-nav-bar li, .fixed-nav-bar a { 
+  height: 50px;
+  line-height: 50px;
+}
+.menu {
+  width: 100%;
+  margin: 0 auto;
+}
+.menu a, .menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+  color: #ebebeb;
+}
+.menu-items {
+  float: right;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 16px;
+  margin-right: 753px
+}
+
+.menu-items li a {
+  padding: 0 10px;
+}
+
+.menu-items li a:hover {
+  padding-top:25px;
+  border-top:5px solid #a90329;
+}
+.menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.menu-items a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .menu { 
+    position: relative;
+    width: 100%;
+  }
+  .sitename {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-left: 0px;
+  }
+  .menu-items {
+    display: none; 
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008378;
+  }
+  .menu-items li {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+/* =============================================================================
+  video intro
+============================================================================= */
+
+.transvideo{
+    -webkit-filter: brightness(70%);
+    filter: brightness(70%);
+    opacity:0.9;
+    z-index:6;
+    height:500px;
+}
+
+.upb_video-src {
+    position: absolute;
+    margin-right:20px;
+    z-index:3;
+    margin-left: -8px;
+    margin-top: -252px;
+    
+}
+#contenidoder {
+    margin-top:100px;
+    width:50%;
+    height:200px;
+    position:absolute;
+    z-index:5;
+    left: 25%;
+    top: 47%;
+    text-align:center;
+    background-color:white;
+    opacity:0.4;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+    
+  }
+
+.h1curriculum{
+    color:#a90329;
+    font-size:68px;
+    font-family: "Roboto",sans-serif;
+   
+
+}
+/* =============================================================================
+  SECTION (DIVS GRANDES)
+============================================================================= */
+
+.titulos{
+    font-family: "proxima_novalight";
+    font-size:  xx-large;
+    text-align:center;
+    
+
+}
+
+.contenedor {
+    background-color: #e4dcdc;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    position: relative;
+    height: 2000px;
+    margin-top: 20%;
+    border-radius: 16px 16px 16px 16px;
+   -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 14px -11px 45px -9px rgba(0,0,0,0.5);
+    -moz-box-shadow: 14px -11px 45px -9px rgba(0,0,0,0.5);
+    box-shadow: 14px -11px 45px -9px rgba(0,0,0,0.5);
+}
+
+.titlediv {
+    margin-left:35%;
+    width:30%;
+    height:50px;
+    padding-top:20px;
+}
+.shoters-intro{
+   width:60%;
+   margin-left:250px;
+   text-align:center;
+
+   margin-top:68px;
+   padding-bottom:50px;
+}
+
+#iconocentrado{
+    margin-left: 41%;
+    margin-top: 5%
+
+    
+}
+/* =============================================================================
+ LINEA DEL TIEMPO
+============================================================================= */
+
+
+
+#divformizq1 {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+}
+#divformizq2 {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    text-align: center;
+}
+#divformder1 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 68%;
+    text-align: center;
+    top: 84%;
+}
+#divformder2 {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 68%;
+    text-align: center;
+    top: 61%;
+}
+#divflecha1 {
+    background-color: #a90329;
+    width: 200px;
+    position: relative;
+    height: 5px;
+    top: 9px;
+    left: 35%;
+}
+#divflecha2 {
+    background-color: #a90329;
+    width: 200px;
+    position: relative;
+    height: 5px;
+    top: 10%;
+    left: 50%;
+}
+#divflecha3 {
+    background-color: #a90329;
+    width: 200px;
+    position: relative;
+    height: 5px;
+    top: 23%;
+    left: 35%;
+}
+#divflecha4 {
+    background-color: #a90329;
+    width: 200px;
+    position: relative;
+    height: 5px;
+    top: 33%;
+    left: 50%;
+}
+#lineatiempo {
+    background-color: #a90329;
+    height:51%;
+    width: 5px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+}
+
+.letra {
+        font-family: Roboto,arial,sans-serif;
+        font-size:20px;
+}
+
+/* =============================================================================
+  CONOCIMIENTOS
+============================================================================= */
+#imgcurriculum{
+   margin-left: 18%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+
+}
+.contenedor2 {
+    background-color: #e4dcdc;
+    left: 15%;
+    right: 15%;
+    width: 70%;
+    position: relative;
+    height: 2000px;
+    margin-top:8%;
+    border-radius: 16px 16px 16px 16px;
+   -moz-border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 14px -11px 45px -9px rgba(0,0,0,0.5);
+    -moz-box-shadow: 14px -11px 45px -9px rgba(0,0,0,0.5);
+    box-shadow: 14px -11px 45px -9px rgba(0,0,0,0.5);
+}
+.barras{
+  
+   width: 50%;
+   margin-left: 24%;
+   margin-top: 6%;
+}
+
+.color-white {
+    color: #f2f2f2 !important;
+}
+.base {
+    width: 100%;
+    float: right;
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 22px;
+    border: 1px solid #a90329;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    padding: 2px;
+}
+.barra {
+    width: 0%;
+    height: 20px;
+    background-color: #a90329;
+    
+}
+.barra span {
+    margin-left: 22px;
+    line-height: 150%;
+}
+.rounded {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-clip: padding-box;
+}
+.text-conocimiento{
+   width: 70%;
+   margin-left: 26%;
+   position:absolute;
+   height:200px;
+   
+   top:45%;
+   text-align:justify;
+}
+
+#finalfoto {
+    position: relative;
+    top: 70%;
+    left: 36%;
+    display: flex;
+}
+
+/* =============================================================================
+  FOOTER
+============================================================================= */
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;	
+
+
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 35%;
+	padding: 3%;
+}
+
+.footer-left h1 {
+  text-align: left;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 45px;
+}
+
+/* =============================================================================
+  SOCIAL MEDIA ICONS - GENERAL
+============================================================================= */
+.component__title {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+/* =============================================================================
+  SOCIAL MEDIA ICONS - ANIMATIONS
+============================================================================= */
+.icon-cube {
+  position: relative;
+  perspective: 800px;
+  overflow: visible;
+}
+
+.icon-cube::before,
+.icon-cube::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/icons/socialmedia-icons/icons5.png");
+  background-image: url("../images/icons/socialmedia-icons/icons5.svg"), none;
+  content: "";
+  transition: all 0.3s;
+}
+
+.icon-cube::before {
+  z-index: 2;
+  background-color: #595959;
+}
+
+.icon-cube::after {
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(48px) rotateX(-90deg);
+}
+
+.icon-cube:hover::before {
+  opacity: 0;
+  transform: translateY(-48px) rotateX(90deg);
+}
+
+.icon-cube:hover::after {
+  opacity: 1;
+  transform: rotateX(0);
+}
+
+/* facebook */
+.icon-cube.facebook::before,
+.icon-cube.facebook::after {
+  background-position: 0 0;
+}
+
+.icon-cube.facebook::after {
+  background-color: #3b5998;
+}
+
+/* twitter */
+.icon-cube.twitter::before,
+.icon-cube.twitter::after {
+  background-position: -96px 0;
+}
+
+.icon-cube.twitter::after {
+  background-color: #4099ff;
+}
+
+/* google plus */
+.icon-cube.googleplus::before,
+.icon-cube.googleplus::after {
+  background-position: -192px 0;
+}
+
+.icon-cube.googleplus::after {
+  background-color: #d34836;
+}
+
+/* github */
+.icon-cube.github::before,
+.icon-cube.github::after {
+  background-position: -288px 0;
+}
+
+.icon-cube.github::after {
+  background-color: #333333;
+}
+
+/* rss */
+.icon-cube.rss::before,
+.icon-cube.rss::after {
+  background-position: -384px 0;
+}
+
+.icon-cube.rss::after {
+  background-color: #ee802f;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 20%;
+	padding: 5%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #a90329;
+	text-decoration: none;
+}
+
+.footer-distributed .footer-center .footer-legalterms p{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 55px 10px;
+}
+.footer-distributed .footer-center .footer-legalterms p a{
+	color:  #8f9296;
+	padding: 0 15px;
+}
+.footer-distributed .footer-center .footer-legalterms p a:hover{
+	text-decoration: underline;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+	padding: 55px 10px;
+}
+
+.footer-right h1 {
+  text-align: left;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+
+.footer-distributed form input:focus {
+	border: 2px solid #FFE200;
+}
+
+.footer-distributed form textarea:focus {
+	border: 2px solid #FFE200;
+}
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
