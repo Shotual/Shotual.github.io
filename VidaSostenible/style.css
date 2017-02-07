@@ -1,0 +1,84 @@
+﻿/*  COLORES
+        Rojo: #b42a33;
+        Gris: #ccc;
+        Negro: #333;
+*/
+
+
+
+
+body {  
+  font-size:50px;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+/*  NAV BAR */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 56px 75px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 50px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+
+ul.topnav li.icon {display: none;}
+
+nav ul li a:hover{
+    padding-top:50px;
+  border-top:10px solid #b42a33;
+    
+}
+/*  bloques */
+
+
+.titulos{
+    text-align:center;
+    padding-top:5%;
+    padding-bottom:5%;
+    background-color: #ccc;
+}
+.centertitle{
+    text-align:center;
+}
+
+.preguntas{
+    border: 7px solid #000000;
+    width:80%;
+    margin-left:10%;
+    margin-top:10%;
+    margin-bottom:10%;
+    padding-bottom:5%;
+    padding-top:5%;
+   
+    font-size:50px;
+
+}
+input[type=radio]{
+    height:4em;
+    width:80px;
+    margin-bottom: 60px;
+}
+p{
+      font-size:30px;
+      padding-bottom: 60px;
+}

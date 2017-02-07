@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+    <title>Vida Sostenible</title>
+</head>
+<body>
+    <script>
+        function cambio(id) {
+            document.getElementById(id).setAttribute;
+            document.getElementById(id + 1).setAttribute;
+            return id++;
+        };
+    </script>
+    <nav>
+        <ul class="topnav" id="myTopnav">
+            <li><a href="#general">General</a></li>
+            <li><a href="#energia">Energia</a></li>
+            <li><a href="#transporte">Transporte</a></li>
+
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+
+        <div class="titulos">
+            <h2>General</h2>
+        </div>
+        <div class="preguntas">
+            <p class="centertitle"> ¿Qué edad tienes? </p>
+            <form action="">
+                <input type="radio" name="Edad" value="16">Menos de 16 años<br />
+                <input type="radio" name="Edad" value="17">Entre 17 y 36<br />
+                <input type="radio" name="Edad" value="57"> Entre 57 y 76<br />
+                <input type="radio" name="Edad" value="76">Más de 76<br />
+
+            </form>
+        </div>
+        <div class="preguntas">
+            <p class="centertitle"> ¿Cómo es la casa en la que vives?(domicilio principal) </p>
+            <form action="">
+                <input type="radio" name="Domicilio" value="Chalet">Chalet o vivienda aislada<br />
+                <input type="radio" name="Domicilio" value="Adosado">Adosado<br />
+                <input type="radio" name="Domicilio" value="Vivienda1">Vivienda en bloque de pisos<br />
+                <input type="radio" name="Domicilio" value="Vivienda2">Vivienda en una manzana de casas<br />
+
+            </form>
+        </div>
+
+        <div class="preguntas">
+            <p class="centertitle"> ¿Cuántas personas viven en tu hogar? </p>
+            <form action="">
+                <input type="radio" name="hogar" value="1">Una<br />
+                <input type="radio" name="hogar" value="2">Dos<br />
+                <input type="radio" name="hogar" value="3">Tres<br />
+                <input type="radio" name="hogar" value="3+">Más de tres<br />
+
+            </form>
+        </div>
+
+        <div class="preguntas">
+            <p class="centertitle">Indica el espacio de que dispones en metros cuadrados</p>
+            <form action="">
+
+
+
+                <input type="radio" name="espacio" value="16">Menos de 60m2<br />
+                <input type="radio" name="espacio" value="17">Entre 61m2 y 120 m2<br />
+                <input type="radio" name="espacio" value="57"> Más de 121m2<br />
+
+
+            </form>
+        </div>
+
+        <div class="titulos">
+            <h2>Energia</h2>
+        </div>
+        <div class="preguntas">
+            <p class="centertitle">
+                ¿Cuántos elementos de calefacción tienes en casa? (cuenta todos
+                los radiadores, estufas, etc,…)
+            </p>
+            <form action="">
+                <input type="radio" name="calefaccion" value="no tengo">No tengo ninguno (Suma 0 puntos a la huella)<br />
+                <input type="radio" name="calefaccion" value="tengo alguna">Tengo alguna estufa o calefactor móvil (Suma 2 puntos a la huella)<br />
+                <input type="radio" name="calefaccion" value="tengo sistema"> Tengo un sistema de calefacción con radiadores fijos. <br />
+
+
+            </form>
+        </div>
+
+
+        <div class="preguntas">
+            <p class="centertitle"> ¿Cómo es la casa en la que vives?(domicilio principal) </p>
+            <form action="">
+                <input type="radio" name="Domicilio" value="Chalet">Chalet o vivienda aislada<br />
+                <input type="radio" name="Domicilio" value="Adosado">Adosado<br />
+                <input type="radio" name="Domicilio" value="Vivienda1">Vivienda en bloque de pisos<br />
+                <input type="radio" name="Domicilio" value="Vivienda2">Vivienda en una manzana de casas<br />
+
+            </form>
+        </div>
+        <div class="preguntas">
+            <p class="centertitle"> ¿Cuántas personas viven en tu hogar? </p>
+            <form action="">
+                <input type="radio" name="Edad" value="1">Una<br />
+                <input type="radio" name="Edad" value="2">Dos<br />
+                <input type="radio" name="Edad" value="3">Tres<br />
+                <input type="radio" name="Edad" value="3+">Más de tres<br />
+
+            </form>
+        </div>
+
+
+        <div class="preguntas">
+            <p class="centertitle"> Indica el espacio de que dispones en metros cuadrados</p>
+            <form action="">
+
+
+
+                <input type="radio" name="Edad" value="16">Menos de 60m2<br />
+                <input type="radio" name="Edad" value="17">Entre 61m2 y 120 m2<br />
+                <input type="radio" name="Edad" value="57"> Más de 121m2<br />
+
+
+            </form>
+            </div>
+
+
+            <div class="titulos">
+                <h2>Transporte</h2>
+            </div>
+
+            <p> ¿Qué edad tienes? </p>
+            <form action="">
+                <input type="radio" name="Edad" value="16">Menos de 16 años<br />
+                <input type="radio" name="Edad" value="17">Entre 17 y 36<br />
+                <input type="radio" name="Edad" value="57"> Entre 57 y 76<br />
+                <input type="radio" name="Edad" value="76">Más de 76<br />
+
+            </form>
+
+
+            <p> ¿Cómo es la casa en la que vives?(domicilio principal) </p>
+            <form action="">
+                <input type="radio" name="Domicilio" value="Chalet">Chalet o vivienda aislada<br />
+                <input type="radio" name="Domicilio" value="Adosado">Adosado<br />
+                <input type="radio" name="Domicilio" value="Vivienda1">Vivienda en bloque de pisos<br />
+                <input type="radio" name="Domicilio" value="Vivienda2">Vivienda en una manzana de casas<br />
+
+            </form>
+
+            <p> ¿Cuántas personas viven en tu hogar? </p>
+            <form action="">
+                <input type="radio" name="Edad" value="1">Una<br />
+                <input type="radio" name="Edad" value="2">Dos<br />
+                <input type="radio" name="Edad" value="3">Tres<br />
+                <input type="radio" name="Edad" value="3+">Más de tres<br />
+
+            </form>
+
+
+            <p> Indica el espacio de que dispones en metros cuadrados</p>
+            <form action="">
+
+
+
+                <input type="radio" name="Edad" value="16">Menos de 60m2<br />
+                <input type="radio" name="Edad" value="17">Entre 61m2 y 120 m2<br />
+                <input type="radio" name="Edad" value="57"> Más de 121m2<br />
+
+
+            </form>
+
+    </section>
+
+
+
+</body>
+</html>
