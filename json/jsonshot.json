@@ -1,0 +1,44 @@
+{
+  "Actividades": [
+    {
+      "Titulo": "Curriculum",
+      "Foto": "img/Curriculum.png",
+      "Descripcion": "Pagina Web sobre mi curriculum donde explicare mis conocimientos y mi vida laboral.",
+      "Asignaturas": "Lenguaje de marcas",
+      "Link": "CV/",
+      "Fecha": "domingo  27 de enero ",
+      "Disponible": "si",
+      "Destacado": true,
+      "Responsive": "no",
+      "Visualizacion": "Resolución",
+      "Grupal": "Ramsés Diez"
+       
+    },
+    {
+      "Titulo": "The Shoters",
+      "Foto": "img/theshoters.png",
+      "Descripcion": "Trabajo de una pagina web sobre una empresa de juegos profesionales como mobas shooters etc centro donde los jugadores profesionales podran jugar a la perfección.",
+      "Asignaturas":"Lenguaje de marcas",
+      "Link": "TheShoters/",
+      "Fecha": " domingo  27 de noviembre",
+      "Disponible": "si",
+      "Destacado": true,
+      "Responsive": "no",
+      "Visualizacion": "Resolución",
+      "Grupal": "Ramsés Diez"
+    },
+    {
+      "Titulo": "Glosario",
+      "Foto": "img/glosario.png",
+      "Descripcion": "Pagina sobre los mejores mobas que existen un top 10 !.",
+      "Asignaturas": "Lenguaje de marcas",
+      "Link": "Glosario/",
+      "Fecha": " Domingo 30 de octubre 23:59",
+      "Disponible": "si",
+      "Destacado": false,
+      "Responsive": "no",
+      "Visualizacion": "Resolución",
+      "Grupal": "Ramsés Diez"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "Actividades": [
+    {
+      "Titulo": "Curriculum",
+      "Foto": "img/Curriculum.png",
+      "Descripcion": "Pagina Web sobre mi curriculum donde explicare mis conocimientos y mi vida laboral.",
+      "Asignaturas": "Lenguaje de marcas"
+    },
+    {
+      "Titulo": "The Shoters",
+      "Foto": "img/theshoters.png",
+      "Descripcion": "Trabajo de una pagina web sobre una empresa de juegos profesionales como mobas shooters etc centro donde los jugadores profesionaels podran jugar a la perfección."
+      "Asignaturas": "Lenguaje de marcas"
+    },
+    {
+      "Titulo": "Glosario",
+      "Foto": "img/glosario.png",
+      "Descripcion": "Pagina sobre los mejores mobas que existen un top 10 !.",
+      "Asignaturas": "Lenguaje de marcas"
+    }
+  ]
+}
